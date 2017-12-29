@@ -10,3 +10,6 @@ Then, go to the terminal tab and run `source install-gradle.sh`.
 This will install Gradle and set some environment variables. When the script
 finishes you should be able to run `gradle clean run` and see a "Hello World"
 message printed out in the console.
+
+Before you try running the code, go to the C9 performance panel on the
+top right and change the RAM to 1GB and the disk to 5GB.
