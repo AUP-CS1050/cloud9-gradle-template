@@ -29,6 +29,7 @@ task pack(type: Zip) {
    include 'config/**/'
    include 'src/**'
    include 'gradlew'
+   include 'gradlew.bat'
    include 'gradle/**/'
    archiveName 'ex.zip'
    destinationDir(file('.'))
