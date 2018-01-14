@@ -1,9 +1,9 @@
 package aup.cs;
 
-import org.junit.Test;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
 
 /**
  * A file testing the functionality of HelloWorl.
