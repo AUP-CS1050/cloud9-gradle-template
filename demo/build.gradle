@@ -22,3 +22,15 @@ checkstyle {
    toolVersion ="8.7"
 }
 
+task pack(type: Zip) {
+   from '.'
+   include 'build.gradle'
+   include 'config/**/'
+   include 'src/**'
+   include 'gradlew'
+   include 'gradle/**/'
+   archiveName 'ex.zip'
+   destinationDir(file('.'))
+}
+
+pack.dependsOn wrapper
