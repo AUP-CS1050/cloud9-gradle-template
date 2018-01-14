@@ -24,6 +24,7 @@ checkstyle {
 
 task pack(type: Zip) {
    from '.'
+   into 'ex'
    include 'build.gradle'
    include 'config/**/'
    include 'src/**'
