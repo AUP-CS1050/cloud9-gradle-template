@@ -23,10 +23,6 @@ test {
   }
 }
 
-checkstyle {
-   toolVersion ="8.7"
-}
-
 task pack(type: Zip) {
    from '.'
    into 'ex'
